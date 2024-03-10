@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Convergence&family=Montserrat:wght@300&family=Varela+Round&display=swap');
 body{
-    background-color: rgb(123, 123, 123);
+    background-image: url(components/backgroundimg.jpg);
 }
 *{
     margin: 0;
@@ -42,9 +42,11 @@ nav ul li{
     width: 70%;
     border-radius: 15px;
     padding: 30px;
-    background-image: url(components/background.jpg);
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.75);
     background-size: 948px 604px;
 }
+
 .bottom{
     position: sticky;
     height: 120px;
